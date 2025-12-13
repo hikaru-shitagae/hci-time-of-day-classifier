@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Data (datasets, generated files)
+data/
+outputs/
+models/
+
+# Kaggle credentials (never commit)
+kaggle.json
+.kaggle/
