@@ -14,11 +14,6 @@ venv/
 # OS
 .DS_Store
 
-# Data (datasets, generated files)
-data/
-outputs/
-models/
-
 # Kaggle credentials (never commit)
 kaggle.json
 .kaggle/

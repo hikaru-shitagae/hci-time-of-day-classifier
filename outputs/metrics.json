@@ -1,0 +1,49 @@
+{
+  "accuracy": 0.9301745635910225,
+  "classification_report": {
+    "day": {
+      "precision": 0.9473684210526315,
+      "recall": 0.9130434782608695,
+      "f1-score": 0.9298892988929889,
+      "support": 138.0
+    },
+    "night": {
+      "precision": 0.8842975206611571,
+      "recall": 0.9385964912280702,
+      "f1-score": 0.9106382978723404,
+      "support": 114.0
+    },
+    "sunrise_sunset": {
+      "precision": 0.9523809523809523,
+      "recall": 0.9395973154362416,
+      "f1-score": 0.9459459459459459,
+      "support": 149.0
+    },
+    "accuracy": 0.9301745635910225,
+    "macro avg": {
+      "precision": 0.9280156313649136,
+      "recall": 0.9304124283083938,
+      "f1-score": 0.9288245142370918,
+      "support": 401.0
+    },
+    "weighted avg": {
+      "precision": 0.9313005520334089,
+      "recall": 0.9301745635910225,
+      "f1-score": 0.9303826312983171,
+      "support": 401.0
+    }
+  },
+  "timestamp": "2025-12-16T16:09:54.324496",
+  "config": {
+    "model": "ResNet18",
+    "pretrained": true,
+    "batch_size": 32,
+    "image_size": 224,
+    "epochs": 10,
+    "learning_rate": 0.0001,
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss",
+    "seed": 42,
+    "device": "cpu"
+  }
+}
