@@ -155,4 +155,3 @@ kaggle datasets download -d aymenkhouja/timeofdaydataset -p data/raw --unzip
 5. Training（train/val）
 6. Test evaluation
 7. Visualization（予測例・誤分類例）
-8. 簡単な考察メモ（Markdownセル）
